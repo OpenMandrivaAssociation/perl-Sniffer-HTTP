@@ -1,2 +1,4 @@
+removed_sources:
+  Sniffer-HTTP-0.22.tar.gz: 30c7f14b89952ffa16da9d2d9a95fd62768ab46f
 sources:
-  "Sniffer-HTTP-0.22.tar.gz": 30c7f14b89952ffa16da9d2d9a95fd62768ab46f
+  Sniffer-HTTP-0.23.tar.gz: 25193ab10e10ee4163e8c9af6449eee31b3b80af

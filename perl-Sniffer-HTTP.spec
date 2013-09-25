@@ -1,12 +1,12 @@
 %define upstream_name	  Sniffer-HTTP
-%define upstream_version  0.22
+%define upstream_version 0.23
 
 Name:		perl-%{upstream_name}
 Summary:	Multi-connection sniffer driver
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 URL:		http://search.cpan.org/~corion/Sniffer-HTTP-0.22/lib/Sniffer/HTTP.pm
-Source0:	http://search.cpan.org/CPAN/authors/id/C/CO/CORION/%{upstream_name}-%{upstream_version}.tar.gz	
+Source0:	http://www.cpan.org/authors/id/C/CO/CORION/Sniffer-HTTP-%{upstream_version}.tar.gz
 License:	Artistic
 Group:		Development/Perl 
 
@@ -47,4 +47,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun May 01 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.220.0-1mdv2011.0
 + Revision: 661354
 - import perl-Sniffer-HTTP
+
 
