@@ -5,7 +5,7 @@ Name:		perl-%{upstream_name}
 Summary:	Multi-connection sniffer driver
 Version:	%perl_convert_version %{upstream_version}
 Release:	3
-URL:		http://search.cpan.org/~corion/Sniffer-HTTP-0.22/lib/Sniffer/HTTP.pm
+URL:		https://search.cpan.org/~corion/Sniffer-HTTP-0.22/lib/Sniffer/HTTP.pm
 Source0:	http://www.cpan.org/authors/id/C/CO/CORION/Sniffer-HTTP-%{upstream_version}.tar.gz
 License:	Artistic
 Group:		Development/Perl 
