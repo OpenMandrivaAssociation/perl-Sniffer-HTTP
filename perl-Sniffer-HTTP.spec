@@ -10,6 +10,7 @@ Source0:	http://www.cpan.org/authors/id/C/CO/CORION/Sniffer-HTTP-%{upstream_vers
 License:	Artistic
 Group:		Development/Perl 
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(NetPacket)
 BuildRequires:	perl(Net::Pcap)
