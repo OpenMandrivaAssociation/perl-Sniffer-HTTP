@@ -1,12 +1,10 @@
 %define upstream_name	  Sniffer-HTTP
-%define upstream_version 0.28
-
 Name:		perl-%{upstream_name}
 Summary:	Multi-connection sniffer driver
-Version:	%{upstream_version}
-Release:	1
+Version:	0.28
+Release:	2
 URL:		https://github.com/Corion/Sniffer-HTTP
-Source0:	https://cpan.metacpan.org/authors/id/C/CO/CORION/Sniffer-HTTP-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CO/CORION/Sniffer-HTTP-%{version}.tar.gz
 License:	Artistic
 Group:		Development/Perl 
 
@@ -27,7 +25,7 @@ You need to feed it the Ethernet, IP or TCP packets either from
 a dump file or from Net::Pcap by unpacking them via NetPacket.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
